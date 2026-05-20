@@ -213,8 +213,7 @@ PORT=3001
 
 ```bash
 # Terminal 1 — Start the backend
-cd server
-npm run dev
+node server/index.js
 # ✅ Express API running on http://localhost:3001
 
 # Terminal 2 — Start the frontend
